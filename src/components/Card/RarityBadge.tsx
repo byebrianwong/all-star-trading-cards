@@ -14,7 +14,7 @@ const RARITY_META: Record<Rarity, { label: string; className: string; Icon: type
   },
   legendary: {
     label: 'Legendary',
-    className: 'bg-rarity-legendary/20 text-rarity-legendary border border-rarity-legendary/50',
+    className: 'bg-rarity-legendary/40 text-white border border-rarity-legendary shadow-[0_0_12px_rgba(245,182,66,0.6)]',
     Icon: Crown,
   },
   mythic: {
