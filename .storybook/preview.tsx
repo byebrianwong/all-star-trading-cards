@@ -17,10 +17,12 @@ const preview: Preview = {
       },
     },
     backgrounds: {
-      default: 'ink',
-      values: [{ name: 'ink', value: '#05060a' }],
+      options: {
+        ink: { name: 'ink', value: '#05060a' }
+      }
     },
   },
+
   decorators: [
     (Story) => (
       <MotionConfig reducedMotion={isChromatic() ? 'always' : 'never'}>
@@ -39,6 +41,12 @@ const preview: Preview = {
       </MotionConfig>
     ),
   ],
+
+  initialGlobals: {
+    backgrounds: {
+      value: 'ink'
+    }
+  }
 };
 
 export default preview;
