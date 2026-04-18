@@ -7,5 +7,6 @@ dist-ssr
 .env.local
 storybook-static
 chromatic-diagnostics.json
+build-storybook.log
 .DS_Store
 *.tsbuildinfo
