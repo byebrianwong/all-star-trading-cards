@@ -1,0 +1,11 @@
+node_modules
+dist
+dist-ssr
+.vite
+*.local
+.env
+.env.local
+storybook-static
+chromatic-diagnostics.json
+.DS_Store
+*.tsbuildinfo

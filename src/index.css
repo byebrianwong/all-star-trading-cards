@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --foil-angle: 0deg;
+  --pointer-x: 50%;
+  --pointer-y: 50%;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(1200px 600px at 15% -10%, rgba(74, 169, 255, 0.12), transparent 60%),
+    radial-gradient(900px 500px at 110% 20%, rgba(217, 70, 239, 0.1), transparent 60%),
+    radial-gradient(800px 600px at 50% 120%, rgba(245, 182, 66, 0.08), transparent 60%),
+    #05060a;
+  background-attachment: fixed;
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+}
+
+@layer utilities {
+  .preserve-3d { transform-style: preserve-3d; }
+  .backface-hidden { backface-visibility: hidden; }
+  .perspective-1000 { perspective: 1000px; }
+  .perspective-1500 { perspective: 1500px; }
+}
