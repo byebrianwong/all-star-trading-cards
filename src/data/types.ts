@@ -5,7 +5,11 @@ export type Sport =
   | 'soccer'
   | 'hockey'
   | 'tennis'
-  | 'gymnastics';
+  | 'gymnastics'
+  | 'boxing'
+  | 'swimming'
+  | 'track'
+  | 'golf';
 
 export type Rarity = 'common' | 'rare' | 'legendary' | 'mythic';
 
@@ -57,4 +61,8 @@ export const SPORT_LABEL: Record<Sport, string> = {
   hockey: 'Hockey',
   tennis: 'Tennis',
   gymnastics: 'Gymnastics',
+  boxing: 'Boxing',
+  swimming: 'Swimming',
+  track: 'Track & Field',
+  golf: 'Golf',
 };
