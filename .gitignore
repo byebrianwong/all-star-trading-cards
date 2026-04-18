@@ -8,5 +8,6 @@ dist-ssr
 storybook-static
 chromatic-diagnostics.json
 build-storybook.log
+debug-storybook.log
 .DS_Store
 *.tsbuildinfo
