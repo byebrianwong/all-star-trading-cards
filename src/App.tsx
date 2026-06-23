@@ -10,7 +10,9 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <NavLink to="/" className="flex items-center gap-2 font-display font-bold text-xl tracking-tight">
             <Sparkles className="w-5 h-5 text-rarity-legendary" />
-            <span>All-Stars</span>
+            <span className="bg-gradient-to-r from-rarity-legendary to-ink-100 bg-clip-text text-transparent">
+              All-Stars
+            </span>
             <span className="text-ink-300 font-normal text-sm">Trading Cards</span>
           </NavLink>
           <nav className="flex items-center gap-1 text-sm">
