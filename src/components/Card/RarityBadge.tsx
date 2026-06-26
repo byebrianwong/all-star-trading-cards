@@ -34,7 +34,7 @@ export function RarityBadge({ rarity, size = 'sm' }: { rarity: Rarity; size?: 's
   const dotSize = size === 'md' ? 'w-2 h-2' : 'w-1.5 h-1.5';
   return (
     <span
-      className={`inline-flex items-center gap-1.5 rounded-full font-mono font-bold uppercase tracking-wider ${pad} ${className}`}
+      className={`inline-flex items-center gap-1.5 rounded-full font-mono font-bold uppercase tracking-widest shadow-md shadow-black/50 ${pad} ${className}`}
     >
       <span
         className={`${dotSize} shrink-0 rounded-full`}
